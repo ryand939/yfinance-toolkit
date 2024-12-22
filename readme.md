@@ -75,8 +75,8 @@ While currently focused on dividend analysis, the toolkit could be expanded to a
 ### Basic Data Access
 
 ```python
-from src.ticker_research import TickerResearch
-from src.services.ticker_cache import StockCache
+from ticker_research import TickerResearch
+from services.ticker_cache import StockCache
 from datetime import timedelta
 
 # Optional: Configure caching
@@ -102,7 +102,7 @@ if ticker.has_dividends():
 ### Batch Processing
 
 ```python
-from src.ticker_research import TickerBatchResearch
+from ticker_research import TickerBatchResearch
 
 # Analyze multiple stocks
 batch = TickerBatchResearch(["AAPL", "MSFT", "GOOGL"])

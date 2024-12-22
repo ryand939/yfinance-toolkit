@@ -4,8 +4,8 @@ from typing import Tuple, Optional, Dict, List, Any
 import numpy as np
 import pandas as pd
 from datetime import datetime, date, timedelta, timezone
-from src.utils.date_util import DateNormalizer
-from src.models.dividend_models import ExDividendPattern, DividendGapResult, DividendFrequency
+from utils.date_util import DateNormalizer
+from models.dividend_models import ExDividendPattern, DividendGapResult, DividendFrequency
 
 
 

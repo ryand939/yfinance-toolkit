@@ -4,8 +4,8 @@ import time
 import signal
 from typing import List, Any
 
-from src.services.ticker_cache import StockCache
-from src.ticker_research import TickerResearch, TickerBatchResearch
+from services.ticker_cache import StockCache
+from ticker_research import TickerResearch, TickerBatchResearch
 
 
 class StockAnalyzerConsole:

@@ -2,13 +2,13 @@ from dataclasses import dataclass
 from typing import Optional, Dict, List, Any
 import pandas as pd
 from datetime import date
-from src.analysis.dividend.dividend_calculations import DividendCalculator
-from src.data.yfinance_adapter import yFinanceAdapter
-from src.analysis.dividend.dividend_analysis import DividendPatternAnalyzer
-from src.models.dividend_models import ExDividendPattern, DividendGapResult
-from src.utils.date_util import DateNormalizer
-from src.utils.get_redundant_field import get_redundant_field
-from src.services.ticker_cache import use_cache
+from analysis.dividend.dividend_calculations import DividendCalculator
+from data.yfinance_adapter import yFinanceAdapter
+from analysis.dividend.dividend_analysis import DividendPatternAnalyzer
+from models.dividend_models import ExDividendPattern, DividendGapResult
+from utils.date_util import DateNormalizer
+from utils.get_redundant_field import get_redundant_field
+from services.ticker_cache import use_cache
 
 @dataclass
 class TickerResearch:

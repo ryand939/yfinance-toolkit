@@ -4,9 +4,9 @@ from typing import Dict, Any, Optional
 import yfinance as yf
 from requests import Session
 import pandas as pd
-from src.utils.retry_util import smart_retry
-from src.utils.ignore_warnings import silence_yfinance_warnings
-from src.utils.exceptions import yFinanceError
+from utils.retry_util import smart_retry
+from utils.ignore_warnings import silence_yfinance_warnings
+from utils.exceptions import yFinanceError
 
 class yFinanceAdapter():
     """

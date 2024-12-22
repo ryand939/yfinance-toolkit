@@ -1,9 +1,9 @@
-from src.ticker_research import TickerResearch
-from src.utils.data_printer import print_data
+from ticker_research import TickerResearch
+from utils.data_printer import print_data
 from datetime import timedelta
 
 # Optional: Use cache
-from src.services.ticker_cache import StockCache
+from services.ticker_cache import StockCache
 
 cache = StockCache()
 cache.set_duration(timedelta(hours=24))

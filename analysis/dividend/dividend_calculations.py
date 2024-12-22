@@ -2,8 +2,8 @@
 
 from typing import Optional, Dict, Any, Tuple
 import pandas as pd
-from src.utils.get_redundant_field import get_redundant_field
-from src.models.dividend_models import DividendFrequency
+from utils.get_redundant_field import get_redundant_field
+from models.dividend_models import DividendFrequency
 
 
 

@@ -3,7 +3,7 @@ from typing import Type, Union, Callable
 import functools
 import backoff
 import random
-from src.utils.exceptions import yFinanceError
+from utils.exceptions import yFinanceError
 
 def smart_retry(
     max_tries: int = 3,
