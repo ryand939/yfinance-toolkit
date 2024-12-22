@@ -138,7 +138,7 @@ See the [yfinance documentation](https://ranaroussi.github.io/yfinance/index.htm
 
     - `exdiv_predicted_direct_calendar`: Detected outdated ex-dividend. Predict the real ex-dividend date and take the gap.
     - `div_predicted_direct_calendar`: Detected outdated dividend. Adjust dates to the same cycle and take the gap.
-    - `direct_from_calendar`: Most accurate, some stocks show the correct future ex-dividend and dividend payout dates, then I can easily understand their dividend date patterns
+    - `direct_calendar`: Most accurate, some stocks show the correct future ex-dividend and dividend payout dates, then I can easily understand their dividend date patterns
     - `default_fallback_guess`: There is no calendar for the stock, so there is no data recorded of when a dividend has ever been paid out. The gap is then assigned a default fallback value based on minimal logic
 
   - The last dividend date is estimated using the assumed gap and the ex-dividend dates:
