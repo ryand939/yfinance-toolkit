@@ -75,7 +75,7 @@ While currently focused on dividend analysis, the toolkit could be expanded to a
 ### Basic Data Access
 
 ```python
-from ticker_research import TickerResearch
+from api.ticker_research import TickerResearch
 from services.ticker_cache import StockCache
 from datetime import timedelta
 

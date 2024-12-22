@@ -5,7 +5,7 @@ import signal
 from typing import List, Any
 
 from services.ticker_cache import StockCache
-from ticker_research import TickerResearch, TickerBatchResearch
+from api.ticker_research import TickerResearch, TickerBatchResearch
 
 
 class StockAnalyzerConsole:

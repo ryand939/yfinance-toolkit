@@ -1,4 +1,4 @@
-from ticker_research import TickerResearch
+from api.ticker_research import TickerResearch
 from utils.data_printer import print_data
 from datetime import timedelta
 

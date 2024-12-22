@@ -1,6 +1,6 @@
 # src/basic_usage.py
 
-from ticker_research import TickerResearch, TickerBatchResearch
+from api.ticker_research import TickerResearch, TickerBatchResearch
 from services.ticker_cache import StockCache
 from utils.data_printer import print_data
 from datetime import timedelta
