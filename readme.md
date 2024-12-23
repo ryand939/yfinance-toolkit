@@ -103,7 +103,7 @@ if ticker.has_dividends():
 ### Batch Processing
 
 ```python
-from ticker_research import TickerBatchResearch
+from api.ticker_research import TickerBatchResearch
 
 # Analyze multiple stocks
 batch = TickerBatchResearch(["AAPL", "MSFT", "GOOGL"])
