@@ -55,11 +55,12 @@ backoff==2.2.1          # for retry mechanisms
 
 The code is organized into focused modules:
 
-- `data/`: Handles yfinance API interaction
-- `analysis/dividend/`: Contains dividend analysis logic
-- `services/`: Services that provide additional functionality such as caching
-- `utils/`: Helper functions for dates, retries, output, etc.
-- `models/`: Data structures and type definitions
+- `data/` - Handles yfinance API interaction
+- `analysis/dividend/` - Contains dividend analysis logic
+- `services/` - Services that provide additional functionality such as caching
+- `utils/` - Helper functions for dates, retries, output, etc
+- `models/` - Data structures and type definitions
+- `api/` - Main interface to access data
 
 ## Potential Extensions
 
@@ -152,4 +153,4 @@ See the [yfinance documentation](https://ranaroussi.github.io/yfinance/index.htm
 
 ## Credit
 
-This project builds upon [yfinance](https://github.com/ranaroussi/yfinance) by Ran Aroussi. See the [yfinance documentation](https://ranaroussi.github.io/yfinance/index.html) for API details.
+This project would not exist without [yfinance](https://github.com/ranaroussi/yfinance) by Ran Aroussi doing all the heavy lifting. See the [yfinance documentation](https://ranaroussi.github.io/yfinance/index.html) for more details.
